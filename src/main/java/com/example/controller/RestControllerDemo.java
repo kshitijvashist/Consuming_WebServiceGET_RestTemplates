@@ -5,11 +5,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -21,9 +25,11 @@ import org.springframework.web.client.RestTemplate;
 
 import com.example.dto.Sports;
 
+import io.swagger.annotations.SwaggerDefinition;
+@SwaggerDefinition
 @RestController
 public class RestControllerDemo {
-	private static final Logger logger = Logger.getLogger(RestControllerDemo.class);
+	private static final Logger logger =LoggerFactory.getLogger(RestControllerDemo.class);
 	@Autowired
 	RestTemplate restTemplate;
 	
@@ -56,13 +62,15 @@ public class RestControllerDemo {
 	{
 		return inputId+userId;
 	}
+	
 	@GetMapping("/getAllSports")
+	
 	public List<Sports> getAllSports()
 	{
+		logger.info("fsfsfkslkflskflkslfklskflsklf");
+		logger.info("fsklskflskf");
 		logger.info("hooooooooooooooooooo");
-		logger.info("hooooooooooooooooooo");
-		logger.info("hooooooooooooooooooo");
-		logger.info("hooooooooooooooooooo");
+		logger.info("asasapowpoepw");
 		logger.info("hooooooooooooooooooo");
 		
 		List <Sports> sportsList=new ArrayList<Sports>();
@@ -84,10 +92,18 @@ public class RestControllerDemo {
 		
 		String getAllURL="http://localhost:8080/getCurrentSport";
 		
+		MultiValueMap<String, String> map=new LinkedMultiValueMap<String, String>();
+		map.add("Authorization", "Basic cm9vdDpyb290");
 		ResponseEntity<Sports> getResponse=restTemplate.getForEntity(getAllURL, Sports.class);
 		
+			HttpEntity<?> reqEntity=new HttpEntity<>(map);
 		Sports sports=restTemplate.getForObject(getAllURL, Sports.class);
 		
+		ResponseEntity<List<Sports>> response = restTemplate.exchange(
+				getAllURL,
+				  HttpMethod.GET,
+				  reqEntity,
+				  new ParameterizedTypeReference<List<Sports>>(){});
 		System.out.println(getResponse);
 		System.out.println(sports);
 		

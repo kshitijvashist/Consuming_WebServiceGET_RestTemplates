@@ -1,0 +1,368 @@
+30-03-2019 10:51:03.741 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 28780 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 10:51:03.752 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+30-03-2019 10:51:06.238 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 10:51:06.287 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 10:51:06.289 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 10:51:06.306 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 10:51:06.495 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 10:51:07.442 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 10:51:07.575 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 10:51:07.752 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 10:51:08.030 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 10:51:08.077 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 10:51:08.126 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 10:51:08.323 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 10:51:08.332 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 10:51:08.335 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 10:51:08.506 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9001 (http) with context path ''
+30-03-2019 10:51:08.509 [main] INFO  c.e.W.WebServiceDemoApplication.logStarted - Started WebServiceDemoApplication in 5.228 seconds (JVM running for 5.694)
+30-03-2019 10:51:43.610 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-03-2019 10:51:43.652 [http-nio-9001-exec-1] INFO  c.e.controller.RestControllerDemo.getAllSports - fsfsfkslkflskflkslfklskflsklf
+30-03-2019 10:51:43.654 [http-nio-9001-exec-1] INFO  c.e.controller.RestControllerDemo.getAllSports - fsklskflskf
+30-03-2019 10:51:43.654 [http-nio-9001-exec-1] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 10:51:43.655 [http-nio-9001-exec-1] INFO  c.e.controller.RestControllerDemo.getAllSports - asasapowpoepw
+30-03-2019 10:51:43.656 [http-nio-9001-exec-1] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 10:51:45.986 [http-nio-9001-exec-2] INFO  c.e.controller.RestControllerDemo.getAllSports - fsfsfkslkflskflkslfklskflsklf
+30-03-2019 10:51:45.987 [http-nio-9001-exec-2] INFO  c.e.controller.RestControllerDemo.getAllSports - fsklskflskf
+30-03-2019 10:51:45.988 [http-nio-9001-exec-2] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 10:51:45.989 [http-nio-9001-exec-2] INFO  c.e.controller.RestControllerDemo.getAllSports - asasapowpoepw
+30-03-2019 10:51:45.991 [http-nio-9001-exec-2] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 10:51:46.315 [http-nio-9001-exec-4] INFO  c.e.controller.RestControllerDemo.getAllSports - fsfsfkslkflskflkslfklskflsklf
+30-03-2019 10:51:46.315 [http-nio-9001-exec-4] INFO  c.e.controller.RestControllerDemo.getAllSports - fsklskflskf
+30-03-2019 10:51:46.315 [http-nio-9001-exec-4] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 10:51:46.317 [http-nio-9001-exec-4] INFO  c.e.controller.RestControllerDemo.getAllSports - asasapowpoepw
+30-03-2019 10:51:46.317 [http-nio-9001-exec-4] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 10:51:46.656 [http-nio-9001-exec-6] INFO  c.e.controller.RestControllerDemo.getAllSports - fsfsfkslkflskflkslfklskflsklf
+30-03-2019 10:51:46.656 [http-nio-9001-exec-6] INFO  c.e.controller.RestControllerDemo.getAllSports - fsklskflskf
+30-03-2019 10:51:46.657 [http-nio-9001-exec-6] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 10:51:46.657 [http-nio-9001-exec-6] INFO  c.e.controller.RestControllerDemo.getAllSports - asasapowpoepw
+30-03-2019 10:51:46.657 [http-nio-9001-exec-6] INFO  c.e.controller.RestControllerDemo.getAllSports - hooooooooooooooooooo
+30-03-2019 11:07:06.611 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 23300 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 11:07:06.614 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 11:07:08.766 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 11:07:08.798 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 11:07:08.800 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 11:07:08.816 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 11:07:08.958 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 11:07:09.762 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 11:07:09.861 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 11:07:09.999 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:07:10.235 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 11:07:10.266 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 11:07:10.313 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 11:07:10.552 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 11:07:10.556 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 11:07:10.560 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 11:07:10.671 [main] ERROR o.apache.catalina.util.LifecycleBase.log - Failed to start component [Connector[HTTP/1.1-9001]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.WebServiceDemo.WebServiceDemoApplication.main(WebServiceDemoApplication.java:35)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+30-03-2019 11:07:10.676 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+30-03-2019 11:07:10.686 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+30-03-2019 11:07:10.689 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9001 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9001, or configure this application to listen on another port.
+
+30-03-2019 11:07:10.694 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:08:14.756 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 23404 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 11:08:14.759 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 11:08:16.947 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 11:08:16.975 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 11:08:16.976 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 11:08:16.987 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 11:08:17.151 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 11:08:18.033 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 11:08:18.138 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 11:08:18.266 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:08:18.523 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 11:08:18.562 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 11:08:18.611 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 11:08:18.874 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 11:08:18.879 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 11:08:18.884 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 11:08:19.012 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9001 (http) with context path ''
+30-03-2019 11:08:19.017 [main] INFO  c.e.W.WebServiceDemoApplication.logStarted - Started WebServiceDemoApplication in 4.728 seconds (JVM running for 5.186)
+30-03-2019 11:09:08.288 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-03-2019 11:10:14.051 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 28228 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 11:10:14.054 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 11:10:16.196 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 11:10:16.221 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 11:10:16.222 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 11:10:16.232 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 11:10:16.375 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 11:10:17.143 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 11:10:17.234 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 11:10:17.356 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:10:17.608 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 11:10:17.639 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 11:10:17.691 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 11:10:17.925 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 11:10:17.929 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 11:10:17.935 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 11:10:18.082 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9001 (http) with context path ''
+30-03-2019 11:10:18.086 [main] INFO  c.e.W.WebServiceDemoApplication.logStarted - Started WebServiceDemoApplication in 4.449 seconds (JVM running for 4.963)
+30-03-2019 11:10:21.813 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-03-2019 11:34:19.737 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 19592 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 11:34:19.741 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 11:34:22.040 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 11:34:22.076 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 11:34:22.078 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 11:34:22.090 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 11:34:22.240 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 11:34:23.025 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 11:34:23.188 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 11:34:23.366 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:34:23.617 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 11:34:23.647 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 11:34:23.686 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 11:34:23.921 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 11:34:23.927 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 11:34:23.933 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 11:34:23.987 [main] ERROR o.apache.catalina.util.LifecycleBase.log - Failed to start component [Connector[HTTP/1.1-9001]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.WebServiceDemo.WebServiceDemoApplication.main(WebServiceDemoApplication.java:35)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+30-03-2019 11:34:23.993 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+30-03-2019 11:34:24.004 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+30-03-2019 11:34:24.005 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9001 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9001, or configure this application to listen on another port.
+
+30-03-2019 11:34:24.009 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:34:36.923 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 27292 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 11:34:36.925 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 11:34:39.111 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 11:34:39.138 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 11:34:39.139 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 11:34:39.149 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 11:34:39.297 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 11:34:40.149 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 11:34:40.254 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 11:34:40.399 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:34:40.687 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 11:34:40.716 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 11:34:40.755 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 11:34:40.986 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 11:34:40.998 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 11:34:41.005 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 11:34:41.105 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9001 (http) with context path ''
+30-03-2019 11:34:41.110 [main] INFO  c.e.W.WebServiceDemoApplication.logStarted - Started WebServiceDemoApplication in 4.641 seconds (JVM running for 5.17)
+30-03-2019 11:34:59.270 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-03-2019 11:59:20.754 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 25512 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 11:59:20.758 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 11:59:23.663 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 11:59:23.691 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 11:59:23.692 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 11:59:23.703 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 11:59:23.899 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 11:59:24.956 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 11:59:25.163 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 11:59:25.356 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: f061e9ee-dcb7-409c-b67f-eb42701d61a5
+
+30-03-2019 11:59:25.638 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@76d72b5b, org.springframework.security.web.context.SecurityContextPersistenceFilter@73c3cd09, org.springframework.security.web.header.HeaderWriterFilter@5dbb50f3, org.springframework.security.web.csrf.CsrfFilter@4ecd00b5, org.springframework.security.web.authentication.logout.LogoutFilter@48a663e9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58f4b31a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3e8b3b79, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7cac93fe, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1682c08c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c1447b5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@345d053b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@479b5066, org.springframework.security.web.session.SessionManagementFilter@575c3e9b, org.springframework.security.web.access.ExceptionTranslationFilter@2d760326, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75b6dd5b]
+30-03-2019 11:59:25.805 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:59:26.138 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 11:59:26.184 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 11:59:26.242 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 11:59:26.525 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 11:59:26.532 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 11:59:26.538 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 11:59:26.757 [main] ERROR o.apache.catalina.util.LifecycleBase.log - Failed to start component [Connector[HTTP/1.1-9001]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:226)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:259)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:311)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:164)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.example.WebServiceDemo.WebServiceDemoApplication.main(WebServiceDemoApplication.java:35)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:236)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1085)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1171)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:568)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+30-03-2019 11:59:26.762 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+30-03-2019 11:59:26.773 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+30-03-2019 11:59:26.775 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 9001 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 9001, or configure this application to listen on another port.
+
+30-03-2019 11:59:26.779 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:59:41.947 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 21944 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 11:59:41.950 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 11:59:44.476 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 11:59:44.511 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 11:59:44.512 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 11:59:44.522 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 11:59:44.654 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 11:59:45.613 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 11:59:45.727 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 11:59:45.845 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: 8fe18a1c-800e-4ec0-aaea-0cdae917331d
+
+30-03-2019 11:59:46.109 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b20706, org.springframework.security.web.context.SecurityContextPersistenceFilter@d257579, org.springframework.security.web.header.HeaderWriterFilter@5c7dfc05, org.springframework.security.web.csrf.CsrfFilter@756aadfc, org.springframework.security.web.authentication.logout.LogoutFilter@2acdcce8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64deb58f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@45b15381, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@16aed49f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@72bdd7c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@939ff41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ba348ca, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66de00f2, org.springframework.security.web.session.SessionManagementFilter@3d0cac1f, org.springframework.security.web.access.ExceptionTranslationFilter@3c66b7d8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fd05b3e]
+30-03-2019 11:59:46.305 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 11:59:46.722 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 11:59:46.783 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 11:59:46.866 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 11:59:47.222 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 11:59:47.228 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 11:59:47.232 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 11:59:47.392 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9001 (http) with context path ''
+30-03-2019 11:59:47.396 [main] INFO  c.e.W.WebServiceDemoApplication.logStarted - Started WebServiceDemoApplication in 6.03 seconds (JVM running for 6.538)
+30-03-2019 11:59:57.235 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-03-2019 12:01:47.313 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 14224 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 12:01:47.320 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 12:01:49.897 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 12:01:49.943 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 12:01:49.945 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 12:01:49.957 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 12:01:50.114 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 12:01:51.054 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 12:01:51.200 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 12:01:51.349 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 12:01:51.757 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: 2e66037e-f809-4463-a459-3039d7c8159b
+
+30-03-2019 12:01:51.922 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6f825516, org.springframework.security.web.context.SecurityContextPersistenceFilter@4091b9c3, org.springframework.security.web.header.HeaderWriterFilter@1290ed28, org.springframework.security.web.csrf.CsrfFilter@1b01a0d, org.springframework.security.web.authentication.logout.LogoutFilter@3d9f5016, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1f95881a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@23ed382c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2da99821, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@56cc9f29, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3610f277, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77db3d02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62cba181, org.springframework.security.web.session.SessionManagementFilter@5c887052, org.springframework.security.web.access.ExceptionTranslationFilter@580fd26b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@438c9aa7]
+30-03-2019 12:01:52.010 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 12:01:52.118 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 12:01:52.193 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 12:01:52.514 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 12:01:52.522 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 12:01:52.528 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 12:01:52.665 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9001 (http) with context path ''
+30-03-2019 12:01:52.671 [main] INFO  c.e.W.WebServiceDemoApplication.logStarted - Started WebServiceDemoApplication in 5.962 seconds (JVM running for 6.543)
+30-03-2019 12:01:59.169 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+30-03-2019 12:03:07.340 [main] INFO  c.e.W.WebServiceDemoApplication.logStarting - Starting WebServiceDemoApplication on Kshitij with PID 16240 (C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo\target\classes started by 23ksh in C:\Users\23ksh\Downloads\WebServiceDemo\WebServiceDemo)
+30-03-2019 12:03:07.345 [main] INFO  c.e.W.WebServiceDemoApplication.logStartupProfileInfo - The following profiles are active: local
+30-03-2019 12:03:09.920 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 9001 (http)
+30-03-2019 12:03:09.952 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+30-03-2019 12:03:09.954 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.16]
+30-03-2019 12:03:09.967 [main] INFO  o.a.c.core.AprLifecycleListener.log - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\apache\apache-maven-3.5.4\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Docker Toolbox;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Users\23ksh\AppData\Local\GitHubDesktop\bin;;C:\Users\23ksh\AppData\Local\Microsoft\WindowsApps;C:\Users\23ksh\AppData\Roaming\npm;D:\eclipse-jee-photon-M6-win32-x86_64\eclipse;;.]
+30-03-2019 12:03:10.105 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+30-03-2019 12:03:11.101 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver.<init> - Exposing 2 endpoint(s) beneath base path '/actuator'
+30-03-2019 12:03:11.226 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+30-03-2019 12:03:11.436 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+30-03-2019 12:03:11.804 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration.getOrDeducePassword - 
+
+Using generated security password: 0ce2bb1b-f203-46cf-9938-7913f52aebfb
+
+30-03-2019 12:03:11.950 [main] INFO  o.s.s.web.DefaultSecurityFilterChain.<init> - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b27b210, org.springframework.security.web.context.SecurityContextPersistenceFilter@f438904, org.springframework.security.web.header.HeaderWriterFilter@4dd90166, org.springframework.security.web.csrf.CsrfFilter@2fb25f4c, org.springframework.security.web.authentication.logout.LogoutFilter@1ddc6db2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@44114b9f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@91f565d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@69aa7d76, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@363c32cc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18d003cd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@67b355c8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33f17289, org.springframework.security.web.session.SessionManagementFilter@5ad1904f, org.springframework.security.web.access.ExceptionTranslationFilter@1d02af26, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@321ca237]
+30-03-2019 12:03:12.048 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Context refreshed
+30-03-2019 12:03:12.108 [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper.start - Found 1 custom documentation plugin(s)
+30-03-2019 12:03:12.170 [main] INFO  s.d.s.w.s.ApiListingReferenceScanner.scan - Scanning for api listing references
+30-03-2019 12:03:12.482 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_1
+30-03-2019 12:03:12.488 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_2
+30-03-2019 12:03:12.493 [main] INFO  s.d.s.w.r.o.CachingOperationNameGenerator.startingWith - Generating unique operation named: handleUsingGET_3
+30-03-2019 12:03:12.619 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 9001 (http) with context path ''
+30-03-2019 12:03:12.624 [main] INFO  c.e.W.WebServiceDemoApplication.logStarted - Started WebServiceDemoApplication in 5.821 seconds (JVM running for 6.272)
+30-03-2019 12:03:17.372 [http-nio-9001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
